@@ -62,7 +62,7 @@ function SideMenu({ menuState }: { menuState: [boolean, React.Dispatch<React.Set
         </button>
         <div className='flex items-center gap-[20px]'>
           <img className='w-[40px]' src='/icons/icon.svg' alt='website-logo' />
-          <h2 className='text-primary-100 text-[22px] font-default font-[500]'>GitmeLab</h2>
+          <h2 className='text-primary-100 text-[22px] font-default font-[500]'>MarkLab</h2>
         </div>
         <hr className='w-full h-[1px] bg-separator border-0 my-[30px]' />
         <div className='flex flex-col gap-[30px]'>

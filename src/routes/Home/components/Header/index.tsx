@@ -11,16 +11,16 @@ function Title(): JSX.Element {
         <span className='
           before:absolute
           before:lg:hidden
-          before:left-[-0.5%]
-          before:top-[25%]
+          before:left-[-1%]
+          before:top-[20%]
           before:w-[35px]
           before:h-[35px]
           before:bg-[#f0f0f0]
           before:rounded-full
           after:absolute
           after:lg:hidden
-          after:left-[-2.5%]
-          after:top-[25%]
+          after:left-[-2.2%]
+          after:top-[21%]
           after:w-[20px]
           after:h-[21px]
           after:bg-[#f0f0f0]
@@ -28,11 +28,11 @@ function Title(): JSX.Element {
           after:animate-bounce
         '></span>
         <img
-          className='absolute top-[10%] left-[-6%] w-[11.1%] rotate-[-50deg]'
+          className='absolute top-[7%] left-[-6%] w-[11.1%] rotate-[-50deg]'
           src='/icons/icon.svg'
           alt='header-title-logo'
         />
-        <span>GitmeLab</span>
+        <span>MarkLab</span>
       </h2>
     </>
   );

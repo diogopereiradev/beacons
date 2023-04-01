@@ -2,8 +2,10 @@
   "navbar.home.link": "Inicio",
   "navbar.about.link": "Sobre nós",
   "navbar.github.link": "Github",
-  "navbar.getstarted.link": "Criar Readme",
+  "navbar.getstarted.link": "Criar Markdown",
 
-  "homepage.document.title": "GitmeLab | Inicio",
-  "homepage.header.description": "Crie Readmes para seus projetos com uma interface interativa que permite criar Readmes de forma mais rápida e com um visual ótimo."
+  "homepage.document.title": "MarkLab | Inicio",
+  "homepage.header.description": "Crie Markdown rapidamente direto do navegador com uma interface amigável utilizando MarkLab",
+
+  "editorpage.document.title": "MarkLab | Editando Markdown"
 }

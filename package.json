@@ -1,10 +1,10 @@
 {
-  "name": "gitmelab",
-  "description": "Create beautiful Readmes to your projects or profile.",
+  "name": "marklab",
+  "description": "Easily create Markdown documents with MarkLab - a minimalistic and clean online editor, written in React, Tailwind, Tiptap, and Typescript.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FhillSlinger/gitmelab.git"
+    "url": "https://github.com/FhillSlinger/marklab.git"
   },
   "author": {
     "name": "Diogo Pereira",
