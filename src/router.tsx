@@ -1,12 +1,12 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 
-import { Navbar } from './shared/components/layout/Navbar';
+import { Home } from './routes/Home';
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navbar />
+    element: <Home />
   }
 ], {
   basename: '/'

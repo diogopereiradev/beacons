@@ -4,5 +4,6 @@
   "navbar.github.link": "Github",
   "navbar.getstarted.link": "Create Readme",
 
-  "homepage.document.title": "GitmeLab | Home"
+  "homepage.document.title": "GitmeLab | Home",
+  "homepage.header.description": ""
 }

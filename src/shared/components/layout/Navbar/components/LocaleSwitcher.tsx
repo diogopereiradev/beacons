@@ -22,7 +22,7 @@ function LocalesSelectDialog({ dialogState }: { dialogState: [boolean, React.Dis
             key={locale.shortName}
             variant='text'
             onClick={() => handleClick(locale.shortName as keyof typeof locales)}
-            cstyles={`w-48 px-[10px] py-[15px] first:rounded-t-lg last:rounded-b-lg ${currentLocale.shortName === locale.shortName? 'bg-primary-700 text-secondary-100 hover:text-primary-700' : 'bg-secondary-500'}`}
+            cstyles={`bg-secondary-500 w-48 px-[10px] py-[15px] first:rounded-t-lg last:rounded-b-lg ${currentLocale.shortName === locale.shortName && 'text-secondary-500'}`}
           >
             {locale.fullName}
           </Button>
@@ -38,8 +38,8 @@ export function LocaleSwitcher(): JSX.Element {
   return (
     <>
       <div className={`fixed left-0 top-0 w-screen h-screen ${dialogState[0] ? 'block' : 'hidden'}`} onClick={() => dialogState[1](false)}></div>
-      <div className='relative z-[9999]'>
-        <Button variant='text' onClick={() => dialogState[1](true)}>
+      <div className='relative z-[1]'>
+        <Button variant='text' onClick={() => dialogState[1](state => !state)}>
           <BiWorld size={26} />
         </Button>
         <LocalesSelectDialog dialogState={dialogState} />

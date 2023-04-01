@@ -43,7 +43,7 @@ export function Links(): JSX.Element {
             to={link.path}
             component='route'
             variant='text'
-            cstyles={`relative ${link.path === pathname? `text-secondary-500 ${linkUnderline}` : ''}`}
+            cstyles={`relative text-[1.05rem] font-[700] ${link.path === pathname? `text-secondary-500 ${linkUnderline}` : ''}`}
           >
             {link.label}
           </Link>
@@ -55,6 +55,7 @@ export function Links(): JSX.Element {
         rel='noreferrer'
         component='url'
         variant='text'
+        cstyles='text-[1.05rem] font-[700]'
       >
         {t('navbar.github.link')}
       </Link>

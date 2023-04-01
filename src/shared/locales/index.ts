@@ -9,7 +9,7 @@ export default {
   },
   pt: {
     shortName: 'pt',
-    fullName: 'Portuguese, Brasil',
+    fullName: 'Português, Brasil',
     translation: pt
   }
 };

@@ -61,7 +61,7 @@ export default {
       primary: {
         100: '#f0f0f0',
         300: '#b8b8b8',
-        500: '#808080',
+        500: '#606060',
         700: '#1e1e1e'
       },
       secondary: {
@@ -73,6 +73,18 @@ export default {
     },
     fontFamily: {
       default: 'Roboto'
+    },
+    keyframes: {
+      bounce: {
+        '0%, 100%': {
+          transform: 'translateY(-25%)',
+          'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)'
+        },
+        '50%': {
+          transform: 'translateY(0)',
+          'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)'
+        }
+      }
     },
     extend: {},
   },
