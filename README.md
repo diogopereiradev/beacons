@@ -2,7 +2,7 @@
 <br />
 <div align='center'>
   <img src='./public/favicons/android-chrome-192x192.png' alt='project-logo'/>
-  <h1>GitmeLab</h1>
+  <h1>MarkLab</h1>
   <img src="https://img.shields.io/github/package-json/v/FhillSlinger/gitmelab" alt="version-badge"/>
   <img src="https://img.shields.io/github/license/FhillSlinger/gitmelab" alt="license-badge"/>
   <img src="https://img.shields.io/github/directory-file-count/FhillSlinger/gitmelab" alt="files-count-badge"/>
