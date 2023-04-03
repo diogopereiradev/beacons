@@ -7,5 +7,6 @@
   "homepage.document.title": "MarkLab | Inicio",
   "homepage.header.description": "Crie Markdown rapidamente direto do navegador com uma interface amigável utilizando MarkLab",
 
-  "editorpage.document.title": "MarkLab | Editando Markdown"
+  "editorpage.document.title": "MarkLab | Editando Markdown",
+  "editorpage.toolbar.explorer.title": "Gerenciar arquivos"
 }

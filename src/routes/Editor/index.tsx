@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 
 import { useTranslation } from '../../shared/hooks/useTranslation';
+import { ToolsBar } from './components/ToolsBar';
+import { StatusBar } from './components/StatusBar';
 
 export function Editor(): JSX.Element {
   const { t } = useTranslation();
@@ -8,10 +10,11 @@ export function Editor(): JSX.Element {
   useEffect(() => {
     document.title = t('editorpage.document.title');
   }, []);
-  
-  return(
-    <div>
-      
-    </div>
+
+  return (
+    <main>
+      <ToolsBar />
+      <StatusBar />
+    </main>
   );
 }

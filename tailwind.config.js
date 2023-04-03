@@ -25,7 +25,7 @@ export default {
       },
       secondary: {
         100: '#464663',
-        300: '#303045',
+        300: '#202030',
         500: '#151521',
         700: '#111117'
       },
@@ -55,7 +55,7 @@ export default {
         thumb: '#4e4e66'
       },
       outline: '#4e97e6',
-      separator: '#28283b'
+      separator: '#32324a'
     },
     textColor: {
       primary: {
@@ -88,5 +88,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: []
 };
