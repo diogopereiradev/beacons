@@ -14,7 +14,7 @@ export function StatusBar(): JSX.Element {
           <p className='text-primary-100 text-[13px] font-default font-[400]'>{statusbar.editor.lines} lines</p>
           <p className='text-primary-100 text-[13px] font-default font-[400]'>Ln {statusbar.editor.line}, Col {statusbar.editor.column}</p>
         </div>
-        <div className='flex items-center gap-[15px] h-full'>
+        <div className='flex items-center gap-[15px] h-full msm:hidden'>
           <h2 className='text-primary-100 text-[13px] font-default font-[500]'>Preview</h2>
           <p className='text-primary-100 text-[13px] font-default font-[400]'>{statusbar.preview.characters} characters</p>
         </div>

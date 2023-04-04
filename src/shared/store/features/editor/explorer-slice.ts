@@ -4,8 +4,11 @@ type TypedExplorerState = {
   currentMenu: 'filesView' | '',
   menus: {
     filesView: {
-      selectedFile: string,
-      files: []
+      selectedFile: {
+        id: string,
+        label: string
+      },
+      files: { id: string, label: string }[]
     }
   }
 };
@@ -14,7 +17,10 @@ const initialState: TypedExplorerState = {
   currentMenu: '',
   menus: {
     filesView: {
-      selectedFile: '',
+      selectedFile: {
+        id: '',
+        label: ''
+      },
       files: []
     }
   }
@@ -32,7 +38,7 @@ const editorExplorerSlice = createSlice({
       state.currentMenu = '';
     },
 
-    setFilesViewSelectedFile: (state, action: PayloadAction<string>) => {
+    setFilesViewSelectedFile: (state, action: PayloadAction<{ id: string, label: string }>) => {
       state.menus.filesView.selectedFile = action.payload;
     }
   }
