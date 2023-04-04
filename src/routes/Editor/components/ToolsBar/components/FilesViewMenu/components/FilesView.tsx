@@ -1,16 +1,25 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { FaMarkdown } from 'react-icons/fa';
+
+import { useTypedSelector } from '../../../../../../../shared/hooks/useTypedSelector';
+import { setFilesViewSelectedFile } from '../../../../../../../shared/store/features/editor/explorer-slice';
 
 type File = {
   id: string,
-  label: string
+  name: string,
+  content: string
 };
 
 function FileItem({ file }: { file: File }) {
+  const selectedFile = useTypedSelector(state => state.editorExplorer.menus.filesView.selectedFile);
+  const dispatch =  useDispatch();
+
   return (
     <li key={file.id}>
       <button
-        className='
+        onClick={() => dispatch(setFilesViewSelectedFile(file))}
+        className={`
           flex
           items-center
           gap-[14px]
@@ -20,19 +29,20 @@ function FileItem({ file }: { file: File }) {
           text-[15px]
           font-default
           font-[500]
+          ${selectedFile.id === file.id && 'bg-third-100'}
           hover:bg-third-100
           hover:text-secondary-300
           active:text-secondary-500
           px-[10px]
           py-[5px]
           rounded-md
-        '
+        `}
       >
         <FaMarkdown
           className='text-[#fad669]'
           size={18}
         />
-        {file.label}.md
+        {file.name}.md
       </button>
     </li>
   );

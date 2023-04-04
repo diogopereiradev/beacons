@@ -1,3 +1,4 @@
+import './shared/database/databaseSetup';
 import './shared/core/tailwindSetup.css';
 import './shared/core/i18nextSetup';
 import '@fontsource/roboto/300.css';
