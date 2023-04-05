@@ -1,4 +1,4 @@
-import { DBOpen } from './dbOpen';
+import { DBOpen } from './DBOpen';
 import { markdowns } from './models/markdowns';
 
 // Create default tables to database

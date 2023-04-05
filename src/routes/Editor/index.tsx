@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useTranslation } from '../../shared/hooks/useTranslation';
 import { ToolsBar } from './components/ToolsBar';
 import { StatusBar } from './components/StatusBar';
-import { DBOpen } from '../../shared/database/dbOpen';
+import { DBOpen } from '../../shared/database/DBOpen';
 import { setFilesViewFiles } from '../../shared/store/features/editor/explorer-slice';
 
 export function Editor(): JSX.Element {
