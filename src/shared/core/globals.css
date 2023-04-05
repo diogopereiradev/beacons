@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+}
+
+body {
+  @apply bg-background;
+}
+
+*:focus-visible {
+  @apply outline outline-outlineColor outline-2;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  @apply bg-scrollbar-track;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-scrollbar-thumb;
+}
