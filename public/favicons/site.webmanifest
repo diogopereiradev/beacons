@@ -1,6 +1,6 @@
 {
-    "name": "Diogo Pereira",
-    "short_name": "Diogo Pereira",
+    "name": "Diogo Pereira | Beacons",
+    "short_name": "Diogo Pereira | Beacons",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
@@ -8,12 +8,12 @@
             "type": "image/png"
         },
         {
-            "src": "/favicons/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/favicons/android-chrome-384x384.png",
+            "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#2c2c48",
-    "background_color": "#2c2c48",
+    "theme_color": "#2d2c3a",
+    "background_color": "#2d2c3a",
     "display": "standalone"
 }
