@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Campfire(): JSX.Element {
   return (
-    <div className='relative left-[-100px]'>
+    <div className='relative left-[-80px] scale-[0.8]'>
       {/** Logs */}
       <div
         className='
