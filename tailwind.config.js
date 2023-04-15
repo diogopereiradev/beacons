@@ -51,6 +51,7 @@ export default {
       firePulseOne: 'firePulseOne 0.4s cubic-bezier(.5,.21,.17,.95) infinite',
       firePulseTwo: 'firePulseTwo 0.6s cubic-bezier(.5,.21,.17,.95) infinite',
       firePulseThree: 'firePulseTwo 0.4s cubic-bezier(.5,.21,.17,.95) infinite',
+      shadowPulse: 'shadowPulse 0.4s cubic-bezier(.5,.21,.17,.95) infinite'
     },
     keyframes: {
       firePulseOne: {
@@ -81,6 +82,14 @@ export default {
           height: '0px'
         }
       },
+      shadowPulse: {
+        from: {
+          transform: 'scale(1)'
+        },
+        to: {
+          transform: 'scale(0.9)'
+        }
+      }
     },
     extend: {},
   },
