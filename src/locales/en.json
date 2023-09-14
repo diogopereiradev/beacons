@@ -1,0 +1,14 @@
+{
+  "home": {
+    "profile-skills-message": "Skills",
+    "profile-area-message": "Front-end Developer",
+    "profile-area-tabs-contacts": "Contacts",
+    "profile-area-tabs-works": "Works",
+    "profile-area-contact-informations-title": "Contact informations",
+    "profile-area-about-me-title": "About me",
+    "profile-area-personal-website-message": "Personal website",
+    "profile-area-birthday-message": "Bithday",
+    "profile-area-gender-message": "Gender",
+    "profile-area-gender-value": "Male"
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar {
+  @apply w-[7px] bg-scrollbar-track;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-scrollbar-thumb rounded-full;
+}
+
+::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
