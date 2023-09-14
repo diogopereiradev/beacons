@@ -1,0 +1,27 @@
+
+{
+  "name": "Beacons",
+  "description": {
+    "pt": "É um projeto simples de links que leva para as minhas redes sociais.",
+    "en": "It's a simple project of links that lead to my social media profiles."
+  },
+  "technologies": [
+    {
+      "label": "React.js",
+      "color": "#4d90b6"
+    },
+    {
+      "label": "Tailwind",
+      "color": "#4d90b6"
+    },
+    {
+      "label": "Typescript",
+      "color": "#4d90b6"
+    }
+  ],
+  "projectThumbImageUrl": "https://i.ibb.co/gt7HqWz/image.png",
+  "projectIconUrl": "https://raw.githubusercontent.com/FhillSlinger/beacons/master/public/favicons/favicon.ico",
+  "projectRepositoryUrl": "https://github.com/FhillSlinger/beacons",
+  "projectLiveUrl": "https://beacons.diogopereira.tech",
+  "createdAt": "04/15/2023"
+}
