@@ -20,8 +20,8 @@
     }
   ],
   "projectThumbImageUrl": "https://i.ibb.co/gt7HqWz/image.png",
-  "projectIconUrl": "https://raw.githubusercontent.com/FhillSlinger/beacons/master/public/favicons/favicon.ico",
-  "projectRepositoryUrl": "https://github.com/FhillSlinger/beacons",
-  "projectLiveUrl": "https://beacons.diogopereira.tech",
+  "projectIconUrl": "https://raw.githubusercontent.com/diogopereiradev/beacons/master/public/favicons/favicon.ico",
+  "projectRepositoryUrl": "https://github.com/diogopereiradev/beacons",
+  "projectLiveUrl": "https://beacons.diogopereira.site",
   "createdAt": "04/15/2023"
 }
